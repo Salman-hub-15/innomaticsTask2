@@ -1,0 +1,183 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    align-items: center;
+}
+
+.main{
+    background-color:white;
+    border-radius: 10px;
+    border:1px solid gray;
+    height: auto;
+    width:90%;
+    align-items: center;
+    box-shadow: 0px 2px 5px 2px grey;
+    margin:auto;
+    padding:20px;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+.frm{
+    background-color: rgb(159, 222, 226);
+    border:1px solid azure;
+    border-radius: 10px;
+    height: 85vh;
+    align-content: center;
+}
+
+.inp{
+    font-size:15px;
+    padding:10px;
+}
+.inp input{
+    border-radius: 5px;
+    border:0.5px solid grey;
+    height:30px;
+    width:100%;
+}
+
+.inp #dep{
+border-radius: 5px;
+border:1px solid grey;
+height:30px;
+width: 100%;
+}
+
+
+label{
+    margin-bottom:20px;
+}
+
+.frm button{
+    font-size: 18px;
+    padding: 5px 15px;
+    background-color: #3a87da;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.frm button:hover{
+    background-color: #0d529d;
+}
+
+.d1{
+    border:1px solid rgb(186, 182, 182);
+    border-radius: 5px;
+    margin:10px;
+    background-color:rgb(216, 212, 212);
+}
+
+.d3{
+    border:1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    margin:10px;
+    background-color:white;
+}
+li a{
+    text-decoration: none;
+}
+.t{
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+th{
+    color: white;
+    background-color: #3a87da;
+}
+
+table{
+    width: 100%;
+    height:auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    text-align:center;
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.im{
+    border-radius: 50%;
+}
+
+#if{
+border-radius: 5px;;
+}
+
+
+
+@media (max-width: 768px) {
+    .main {
+        width: 93%;
+        padding: 15px;
+    }
+
+    .frm {
+        height: auto;
+        padding: 10px;
+    }
+
+    .inp input{
+        width: 100%;
+    }
+
+    .inp #dep{
+        width:100%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    .frm button {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .main {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    .frm {
+        height: auto;
+        padding: 10px;
+    }
+
+    .inp input, .inp #dep {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    .frm button {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+
+    .t {
+        padding: 10px;
+    }
+}
